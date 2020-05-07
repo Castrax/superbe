@@ -503,6 +503,34 @@
                         parallaxIt.refresh();
                     });
                 });
+
+                $('[data-dsn="color-modified"]').each(function () {
+
+                    var parallaxIt = new ScrollMagic.Scene({
+                        triggerElement: this,
+                        triggerHook: 0.05,
+                        duration: 600
+                    })
+                        .addTo(controller);
+
+                    parallaxIt.on("enter", function () {
+                        if (isLight)
+                            body.removeClass(v_b);
+                        else
+                            body.addClass(v_b);
+                    });
+                    parallaxIt.on("leave", function () {
+                        if (isLight)
+                            body.addClass(v_b);
+                        else
+                            body.removeClass(v_b);
+
+                    });
+
+                    effectScroll.getListener(function () {
+                        parallaxIt.refresh();
+                    });
+                });
             },
             animateText: function () {
                 const $element = $('[data-dsn-animate="text"] , [data-dsn-animate="up"]')
