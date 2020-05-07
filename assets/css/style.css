@@ -7023,6 +7023,22 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   opacity: 1;
 }
 
+.work-under-header .pro-text h3 {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .work-under-header .pro-text h3 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .work-under-header .pro-text h3 {
+    font-size: 20px;
+  }
+}
+
 .our-work .custom-container {
   width: 100%;
 }
@@ -7168,12 +7184,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .client-see .inner .items .title {
   position: relative;
   z-index: 1;
-  overflow: hidden;
+/*  overflow: hidden;*/
   font-size: 30px;
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.01em;
-  opacity: 0;
+/*  opacity: 0;*/
 }
 
 .client-see .img-box {
@@ -7189,6 +7205,20 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 100%;
   height: 100%;
   margin-right: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .client-see .img-cent {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .client-see .img-cent {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
 }
 
 .client-see .img-cent .img-container {
@@ -7220,6 +7250,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 @media only screen and (max-width: 575px) {
   .client-see .inner .items .title {
     padding-left: 15px;
+    /*overflow: visible;*/
   }
 }
 
@@ -7253,6 +7284,18 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 100%;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .client-see .inner .items .item {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .client-see .inner .items .item {
+    flex-wrap: wrap;
+  }
 }
 
 .client-see .inner .items .quote p {
