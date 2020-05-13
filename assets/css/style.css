@@ -6706,7 +6706,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   padding: 0;
 }
 
-.our-services-2 .col-md-4:nth-of-type(even) .services-item {
+/*.our-services-2 .col-md-4:nth-of-type(even) .services-item {
   background: #090909;
   -webkit-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
@@ -6729,7 +6729,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
     -webkit-box-shadow: 15px 15px 30px rgba(225, 225, 225, 0.46);
     box-shadow: 15px 15px 30px rgba(225, 225, 225, 0.46);
   }
-}
+}*/
 
 @media only screen and (max-width: 767px) {
   .our-services-2 .col-md-4:last-child .services-item {
