@@ -12665,7 +12665,7 @@ footer .copyright-social ul li:last-child {
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
 }
-
+/*
 .glitch-img,
 .glitch-img-inner,
 .glitch-img-inner-2 {
@@ -12695,5 +12695,5 @@ footer .copyright-social ul li:last-child {
  opacity: 0.5;
  clip: rect(60px, 9999px, 60px, 0);
  animation: noise-anim-2 3s infinite step-end;
-}
+}*/
 
