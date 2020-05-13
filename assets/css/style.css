@@ -6793,8 +6793,10 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .our-services-2 .services-item .icon img {
-  height: 75px;
+  height: 150px;
 }
+
+
 
 @media only screen and (max-width: 991px) {
   .our-services-2 .services-item .icon {
@@ -12662,5 +12664,36 @@ footer .copyright-social ul li:last-child {
   98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+}
+
+.glitch-img,
+.glitch-img-inner,
+.glitch-img-inner-2 {
+ width: 500px;
+ height: 500px;
+ background-image: url(https://pp.vk.me/c604321/v604321486/35955/6GPVYYLmKDE.jpg);
+ background-size: cover;
+}
+
+.glitch-img {
+ position: relative;
+ overflow: hidden;
+}
+.glitch-img-inner {
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0.5;
+ clip: rect(60px, 9999px, 60px, 0);
+ animation: noise-anim 3s infinite step-end;
+}
+
+.glitch-img-inner-2 {
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0.5;
+ clip: rect(60px, 9999px, 60px, 0);
+ animation: noise-anim-2 3s infinite step-end;
 }
 

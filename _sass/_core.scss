@@ -523,6 +523,86 @@ $margin-padding-mobile: 80px;
   }
 }
 
+//-------------------- Glitch images --------------------//
+
+@keyframes noise-anim {
+ $steps: 20;
+ @for $i from 0 through $steps {
+  #{percentage($i*(1/$steps))} {
+   $r: random(500);
+   clip: rect($r + px, 9999px, $r + random(100) + px, 0);
+   left: random(10) - 5%;
+   filter: saturate(random(100) / 5);
+   transform: scale(1 + random(3) / 10);
+  }
+ }
+}
+
+@keyframes noise-anim-2 {
+ $steps: 20;
+ @for $i from 0 through $steps {
+  #{percentage($i*(1/$steps))} {
+   $k: random(500);
+   clip: rect($k + px, 9999px, $k + random(50) + px, 0);
+   left: random(10) - 5%;
+   transform: scale(1 + random(3) / 10);
+   filter: saturate(random(100) / 5);
+  }
+ }
+}
+
+.glitch-img,
+.glitch-img-inner,
+.glitch-img-inner-2 {
+ width: 500px;
+ height: 500px;
+ background-size: cover;
+}
+
+.pic-1 {
+ background-image: url(https://source.unsplash.com/8vheRi6dbaw/400x400);
+}
+
+.pic-2 {
+ background-image: url(https://source.unsplash.com/AUXanrckXn0/400x400);
+}
+
+.pic-3 {
+ background-image: url(https://source.unsplash.com/bJdK9v-VVw0/400x400);
+}
+
+.pic-4 {
+ background-image: url(https://source.unsplash.com/muOHbrFGEQY/400x400);
+}
+
+.pic-5 {
+ background-image: url(https://source.unsplash.com/sEzsMcKZd-8/400x400);
+}
+
+.glitch-img {
+ position: relative;
+ overflow: hidden;
+ max-width: 100%;
+ height: 290px;
+}
+.glitch-img-inner {
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0.5;
+ clip: rect(60px, 9999px, 60px, 0);
+ animation: noise-anim 3s infinite step-end;
+}
+
+.glitch-img-inner-2 {
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0.5;
+ clip: rect(60px, 9999px, 60px, 0);
+ animation: noise-anim-2 3s infinite step-end;
+}
+
 //-------------------- Overlay Bottom--------------------//
 .overlay-bottom {
   position: fixed;
@@ -904,10 +984,9 @@ $margin-padding-mobile: 80px;
       width: 100%;
       text-align: center;
       z-index: 2;
-      font-size: 25px;
-      text-transform: uppercase;
-      letter-spacing: 8px;
+      font-size: 40px;
       color: #fff;
+      font-weight: 700;
     }
 
     .percent {
@@ -977,7 +1056,7 @@ $margin-padding-mobile: 80px;
   @include media_991 {
     display: block;
   }
-  
+
   .half-left,
   .half-right {
     flex: 0 0 50%;
@@ -1016,7 +1095,7 @@ $margin-padding-mobile: 80px;
 
         @include media_991 {
           color: #fff;
-          
+
         }
       }
     }
