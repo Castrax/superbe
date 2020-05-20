@@ -1080,6 +1080,11 @@
     }
   }
 
+  .project-text {
+    z-index: 2;
+    bottom: -400px;
+  }
+
   &.box-seat-full {
     .pro-text {
       display: flex;

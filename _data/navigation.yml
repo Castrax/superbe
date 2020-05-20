@@ -2,7 +2,7 @@
   link: /
 - name: À propos
   link: /about.html
-- name: Événements
-  link: /work.html
+- name: Events
+  link: /events.html
 - name: Contact
   link: /contact.html

@@ -6213,6 +6213,11 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   bottom: -80px;
 }
 
+.project-text {
+  z-index: 2;
+  bottom: -400px;
+}
+
 .v-light .box-seat .pro-text {
   background-color: #e6e6e6;
 }
