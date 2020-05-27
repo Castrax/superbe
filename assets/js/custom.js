@@ -284,21 +284,21 @@
                     .setTween(parallax)
                     .addTo(controller);
 
-                let video = heroImg.find('video');
-                if (video.length > 0 || body.hasClass('v-light')) {
-                    parallaxProject.on('enter', function () {
-                        if (video.length > 0)
-                            video.get(0).play();
-                        if (body.hasClass('v-light') && !$(eHeaderProject).hasClass('header-hero-2'))
-                            body.removeClass('menu-light');
-                    });
-                    parallaxProject.on('leave', function () {
-                        if (video.length > 0)
-                            video.get(0).pause();
-                        if (body.hasClass('v-light') && !$(eHeaderProject).hasClass('header-hero-2'))
+                let video = heroImg.find( "video" );
+                if ( video.length > 0 || body.hasClass( "v-light" ) ) {
+                    parallaxProject.on( "enter", function () {
+                        if ( video.length > 0 )
+                            video.get( 0 ).play();
+                        if ( body.hasClass( "v-light" ) && !$( eHeaderProject ).hasClass( "header-hero-2" ) )
+                            body.removeClass( "menu-light" );
+                    } );
+                    parallaxProject.on( "leave", function () {
+                        if ( video.length > 0 )
+                            video.get( 0 ).pause();
+                        if ( body.hasClass( "v-light" ) && !$( eHeaderProject ).hasClass( "header-hero-2" ) )
 
-                            body.addClass('menu-light');
-                    });
+                            body.addClass( "menu-light" );
+                    } );
                 }
 
                 return parallaxProject;
@@ -909,6 +909,9 @@
                     speed: 1500,
                     allowTouchMove: true,
                     resistanceRatio: 0.65,
+                    autoplay: {
+                        delay: 5000,
+                      },
                     navigation: {
                         nextEl: '.dsn-slider .control-nav .next-container',
                         prevEl: '.dsn-slider .control-nav .prev-container',

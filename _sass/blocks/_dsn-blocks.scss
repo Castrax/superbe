@@ -1052,7 +1052,7 @@
 
   .pro-text {
     position: absolute;
-    background-color: #0d0d0d;
+    background-color: $bg-dark-2;
     max-width: 600px;
     padding: 80px;
     right: 80px;
@@ -1067,7 +1067,6 @@
     }
 
     p {
-      margin-left: 70px;
       margin-top: 30px;
 
       @include v-light {
@@ -1082,7 +1081,7 @@
 
   .project-text {
     z-index: 2;
-    bottom: -400px;
+    bottom: -350px;
   }
 
   &.box-seat-full {
@@ -1091,7 +1090,7 @@
       flex-flow: column;
       justify-content: center;
       align-content: center;
-      background-color: rgba(#0d0d0d, 0.7);
+      background-color: rgba(#0d0d0d, 0.3);
       height: 100%;
       top: 0;
 

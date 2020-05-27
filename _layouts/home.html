@@ -8,11 +8,11 @@ layout: default
             <div class="dsn-root-slider" id="dsn-hero-parallax-img">
                 <div class="slide-inner fullscreen-slider">
                   <div id="descover-holder" class="descover-holder">
-                      <span class="letter">Scroll pour</span>
+                      <span class="letter">Scroll</span>
                       <div class="scroll-down__line">
                           <span></span>
                       </div>
-                      <span class="letter">découvrir</span>
+                      <span class="letter">+</span>
                   </div>
                     <div class="swiper-wrapper">
                           <div class="slide-item swiper-slide">
@@ -133,42 +133,6 @@ layout: default
             </div>
 
             <div class="dsn-slider-content"></div>
-
-
-            <div class="nav-slider">
-                <div class="swiper-wrapper" role="navigation">
-                    <div class="swiper-slide">
-                        <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="assets/img/screen-motion.png"
-                                data-overlay="2">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p>01</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="assets/img/project/project9/6.jpg"
-                                data-overlay="2">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p>02</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="assets/img/project/project4/13.jpg"
-                                data-overlay="2">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p>03</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <section class="footer-slid" id="descover-holder">
                 <div class="main-social">
@@ -296,7 +260,7 @@ layout: default
                                     </div>
                                   </div>
                                 <div class="quote">
-                                    <p>"Doit raconter une histoire claire, et faire passer des <span style="color: purple">messages de marques forts."</span></p>
+                                    <p>"Doit raconter une histoire claire, et faire passer des <span style="color: purple"><b>messages de marques forts."</b></span></p>
                                 </div>
                               </div>
 
@@ -307,7 +271,7 @@ layout: default
                                     </div>
                                 </div>
                                 <div class="quote">
-                                    <p>"Être une <span style="color: blue">expérience</span> pour les participants"</p>
+                                    <p>"Être une <span style="color: blue"><b>expérience</b></span> pour les participants"</p>
                                 </div>
                               </div>
 
@@ -318,7 +282,7 @@ layout: default
                                     </div>
                                 </div>
                                 <div class="quote">
-                                    <p>"Être <span style="color: green">amplifié</span> (par une stratégie de contenus pré/post event ou par une amplification digitale dès sa conception)."</p>
+                                    <p>"Être <span style="color: green"><b>amplifié</b></span> (par une stratégie de contenus pré/post event ou par une amplification digitale dès sa conception)."</p>
                                 </div>
                               </div>
 
@@ -329,7 +293,7 @@ layout: default
                                     </div>
                                 </div>
                                 <div class="quote">
-                                    <p>"Être <span style="color: yellow">fédérateur et inclusif"</span></p>
+                                    <p>"Être <span style="color: #E0BD3E"><b>fédérateur et inclusif"</b></span></p>
                                 </div>
                               </div>
 
@@ -340,7 +304,7 @@ layout: default
                                     </div>
                                 </div>
                                 <div class="quote">
-                                    <p>"Être <span style="color: red">respectueux de l'environnement</span> (circuits courts, location, matériaux bruts...)"</p>
+                                    <p>"Être <span style="color: red"><b>respectueux de l'environnement</b></span> (circuits courts, location, matériaux bruts...)"</p>
                                 </div>
                               </div>
                           </div>
@@ -608,22 +572,6 @@ layout: default
             </section>
 
         </div>
-
-        <footer>
-            <div class="info">
-                <div class="contact-footer">
-                    <a href="tel:010" class="phone image-zoom" data-dsn="parallax">{{site.tel}}</a>
-                    <a href="#" class="email image-zoom" data-dsn="parallax">{{site.email}}</a>
-                </div>
-                <div class="copyright-social">
-                    <p>© 2020 by <a href="https://www.mathilderobert.com">Cstrx</a></p>
-                    <ul>
-                        <li class="image-zoom" data-dsn="parallax"><a href="#" target="_blank">Instagram</a></li>
-                        <li class="image-zoom" data-dsn="parallax"><a href="#" target="_blank">Facebook</a></li>
-                        <li class="image-zoom" data-dsn="parallax"><a href="#" target="_blank">Linkedin</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+        {% include footer.html %}
     </div>
 </main>
