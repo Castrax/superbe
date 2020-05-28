@@ -1,0 +1,122 @@
+---
+client: BHV Marais & Sony Pictures
+agency: Faubourg Stories
+name: Pierre Lapin s'installe au BHV
+category: Dispositif
+location: BHV Marais
+city: Paris, 4ème
+---
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <header>
+            <div class="headefr-fexid" data-dsn-header="project">
+                <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
+                    <div class="bg-image cover-bg" data-overlay="6"
+                        data-image-src="/assets/img/project/project8/3.png"></div>
+                </div>
+
+                <div class="scroll" data-dsn-animate="ajax">
+                    <span class="background"></span>
+                    <span class="triangle"></span>
+                </div>
+                <div class="project-title" id="dsn-hero-parallax-title">
+                    <div class="title-text-header">
+                        <div class="cat">
+                            <span>{{ page.category }}</span>
+                        </div>
+                        <span class="title-text-header-inner">
+                            <span data-dsn-animate="ajax">{{ page.name }}</span>
+                        </span>
+                    </div>
+
+                    <div class="sub-text-header" data-dsn-animate="ajax">
+                        <h5>{{ page.location }}</h5>
+                        <span>- {{ page.city }}</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="root-project">
+
+                <div class="inline-desc">
+                <div class="container intro-project section-margin container-fluid">
+                    <div class="intro-text">
+                        <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                            data-dsn-duration="170%" data-dsn-move="0%">
+                            {{ page.name }}
+                        </div>
+                        <div class="inner">
+                            <h2 data-dsn-animate="text">{{ page.name }}</h2>
+                            <p data-dsn-animate="up">A l’occasion de la sortie au cinéma de Pierre Lapin et des fêtes de Pâques,  le BHV organise une chasse aux carottes en chocolat géante sur son Potager Perché. Conception et création d’une vitrine dédiée au personnage.</p>
+                            <ul class="mt-20" data-dsn-animate="up">
+                                <li>Agence : {{ page.agency }}</li>
+                                <li>Client : {{ page.client }}</li>
+                                <li>Lieu : {{ page.location }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container intro-project section-margin container-fluid section-grey">
+                    <div class="intro-text">
+                        <h3 data-dsn-animate="text">Responsabilités</h3>
+                        <div class="inner">
+                            <p><i class="fas fa-tasks"></i>  Conception et recommandation stratégique <br />
+                            <i class="fas fa-chart-line"></i>  Direction de projets <br />
+                            <i class="fas fa-music"></i>  Briefs, suivi et validations créa <br />
+                            <i class="fas fa-music"></i>  Coordination partenariats et validations <br />
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+                <div class="container-fluid gallery-col">
+                    <div class="row">
+                        <div class="col-md-6 box-im section-padding">
+                            <div class="image-zoom" data-dsn="parallax">
+                                <a class="single-image" href="/assets/img/project/project8/2.jpg">
+                                    <img src="/assets/img/project/project8/2.jpg" alt="">
+                                </a>
+
+                                <div class="caption">Trevor Bittinger</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 box-im section-padding">
+                            <div class="image-zoom" data-dsn="parallax">
+                                <a class="single-image" href="/assets/img/project/project8/1.png">
+                                    <img src="/assets/img/project/project8/1.png" alt="">
+                                </a>
+                                <div class="caption">Sef McCullough</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="next-project" data-dsn-footer="project">
+                <div id="dsn-next-parallax-img" class="bg">
+                    <div class="bg-image cover-bg" data-overlay="4"
+                        data-image-src="assets/img/project/project1/1.jpg"></div>
+                </div>
+
+                <div id="dsn-next-parallax-title" class="project-title">
+                    <a href="project-1.html" class="effect-ajax" data-dsn-ajax="next-project">
+                        <div class="title-text-header">
+                            <div class="title-text-header-inner">
+                                <span>Magista</span>
+                            </div>
+                        </div>
+                        <div class="sub-text-header">
+                            <h5>Next Project</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </div>
+</main>

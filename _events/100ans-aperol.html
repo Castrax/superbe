@@ -1,0 +1,142 @@
+---
+client: Baron Philippe de Rothschild France
+agency: We Love Art
+name: 100 ans Apérol
+category: Soirées
+location: La Rotonde Stalingrad
+city: Paris, 18ème
+---
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <header>
+            <div class="headefr-fexid" data-dsn-header="project">
+                <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
+                    <div class="bg-image cover-bg" data-overlay="3"
+                        data-image-src="/assets/img/project/project4/3.jpg"></div>
+                </div>
+
+                <div class="scroll" data-dsn-animate="ajax">
+                    <span class="background"></span>
+                    <span class="triangle"></span>
+                </div>
+                <div class="project-title" id="dsn-hero-parallax-title">
+                    <div class="title-text-header">
+                        <div class="cat">
+                            <span>{{ page.category }}</span>
+                        </div>
+                        <span class="title-text-header-inner">
+                            <span data-dsn-animate="ajax">{{ page.name }}</span>
+                        </span>
+                    </div>
+
+                    <div class="sub-text-header" data-dsn-animate="ajax">
+                        <h5>{{ page.location }}</h5>
+                        <span>- {{ page.city }}</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="root-project box-seat">
+              <div class="inline-desc">
+                <div class="container intro-project section-margin container-fluid">
+                    <div class="intro-text">
+                        <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                            data-dsn-duration="170%" data-dsn-move="0%">
+                            {{ page.name }}
+                        </div>
+                        <div class="inner">
+                            <h2 data-dsn-animate="text">{{ page.name }}</h2>
+                            <p data-dsn-animate="up">A l’occasion des 100 ans de la marque Aperol, RFD nous confie un événement de 3 jours pour son centenaire auquel plus de 3000 personnes ont participé.
+
+Au programme sur les 3 jours : soirée de lancement RP (700K de Media Value), animations, concerts et DJ sets (Feder, The Magician, DJ Pone, Jabberwocky…), scénographie aux couleurs de la marque et gestion logistique de l’événement.</p>
+                            <ul class="mt-20" data-dsn-animate="up">
+                                <li>Agence : {{ page.agency }}</li>
+                                <li>Client : {{ page.client }}</li>
+                                <li>Lieu : {{ page.location }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container intro-project section-margin container-fluid section-grey">
+                    <div class="intro-text">
+                        <h3 data-dsn-animate="text">Responsabilités</h3>
+                        <div class="inner">
+                            <p><i class="fas fa-tasks"></i>  Suivi de projet <br />
+                            <i class="fas fa-chart-line"></i>  Relation client <br />
+                            <i class="fas fa-sitemap"></i>  Coordination avec les équipes logistiques, créatives et production <br />
+                            <i class="fas fa-music"></i>  Coordination de la programmation musicale</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="gallery-portfolio section-margin justified-gallery">
+                  <a class="link-pop" href="/assets/img/project/project4/1.jpg"
+                      data-source="/assets/img/project/project4/1.jpg">
+                      <img src="/assets/img/project/project4/1.jpg" alt="">
+                      <div class="cap">
+                          <span>Web Design</span>
+                      </div>
+                  </a>
+
+                  <a class="link-pop" href="/assets/img/project/project4/2.jpg"
+                      data-source="/assets/img/project/project4/2.jpg">
+                      <img src="/assets/img/project/project4/2.jpg" alt="">
+                      <div class="cap">
+                          <span>Web Design</span>
+                      </div>
+                  </a>
+
+                  <a class="link-pop" href="/assets/img/project/project4/6.jpg"
+                      data-source="/assets/img/project/project4/6.jpg">
+                      <img src="/assets/img/project/project4/6.jpg" alt="">
+                      <div class="cap">
+                          <span>Web Design</span>
+                      </div>
+                  </a>
+
+                  <a class="link-pop" href="/assets/img/project/project4/4.jpg"
+                      data-source="/assets/img/project/project4/4.jpg">
+                      <img src="/assets/img/project/project4/4.jpg" alt="">
+                      <div class="cap">
+                          <span>Web Design</span>
+                      </div>
+                  </a>
+
+                  <a class="link-pop" href="/assets/img/project/project4/5.jpg"
+                      data-source="/assets/img/project/project4/5.jpg">
+                      <img src="/assets/img/project/project4/5.jpg" alt="">
+                      <div class="cap">
+                          <span>Web Design</span>
+                      </div>
+                  </a>
+              </div>
+            </div>
+
+            <div class="next-project" data-dsn-footer="project">
+                <div id="dsn-next-parallax-img" class="bg">
+                    <div class="bg-image cover-bg" data-overlay="4"
+                        data-image-src="/assets/img/project/project9/1.jpg"></div>
+                </div>
+
+                <div id="dsn-next-parallax-title" class="project-title">
+                    <a href="project-9.html" class="effect-ajax" data-dsn-ajax="next-project">
+                        <div class="title-text-header">
+                            <div class="title-text-header-inner">
+                                <span>Vitrines Calvin Klein</span>
+                            </div>
+                        </div>
+                        <div class="sub-text-header">
+                            <h5>Prochain événement</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </div>
+</main>

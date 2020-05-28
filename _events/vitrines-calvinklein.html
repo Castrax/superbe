@@ -1,0 +1,141 @@
+---
+client: CALVIN KLEIN x Galeries Lafayette
+agency: We Love Art
+name: Vitrines CALVIN KLEIN SS19
+category: Dispositif vitrines
+location: Galeries Lafayette
+city: Paris, 9ème
+---
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <header>
+            <div class="headefr-fexid" data-dsn-header="project">
+                <div class="bg has-top-bottom" id="dsn-hero-parallax-img">
+                    <div class=" " data-dsn="video" data-overlay="4" data-dsn-ajax="img">
+                        <video class="image-bg cover-bg dsn-video" poster="/assets/img/slider-3.jpg" autoplay loop
+                            muted>
+                            <source src="/assets/img/project/project2/stranger-night.mp4" type="video/mp4"
+                                type="video/mp4">
+                            <source src="/assets/img/project/project2/stranger-night.webm" type="video/webm">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="scroll" data-dsn-animate="ajax">
+                    <span class="background"></span>
+                    <span class="triangle"></span>
+                </div>
+                <div class="project-title" id="dsn-hero-parallax-title">
+
+                    <div class="title-text-header">
+                        <div class="cat">
+                            <span>{{ page.category }} {{ page.show }}</span>
+                        </div>
+                        <span class="title-text-header-inner">
+                            <span data-dsn-animate="ajax">{{ page.name }}</span>
+                        </span>
+                    </div>
+
+                    <div class="sub-text-header" data-dsn-animate="ajax">
+                        <h5>{{ page.location }}</h5>
+                        <span>- {{ page.city }}</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="root-project box-seat">
+              <div class="inline-desc">
+                <div class="container intro-project section-margin container-fluid">
+                    <div class="intro-text">
+                        <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                            data-dsn-duration="170%" data-dsn-move="0%">
+                            {{ page.name }}
+                        </div>
+                        <div class="inner">
+                            <h2 data-dsn-animate="text">{{ page.name }}</h2>
+                            <p data-dsn-animate="up">Pour la sortie de la saison 3 de la série phare de Netflix Stranger Things, l’agence We Love Art gagne le budget de la Stranger Night au Grand Rex à Paris.<br />
+                                                      2 800 personnes ont pu assister à une nuit de projection de la saison 3, accompagnée d’animations, de F&B et un show exceptionnel animé par une fanfare de 65 musiciens et Bertrand Chameroy en maître de cérémonie. <br />Présence des acteurs de la série sur le tapis rouge pour l’événement européen de lancement de la série.</p>
+                            <ul class="mt-20" data-dsn-animate="up">
+                                <li>Agence : {{ page.agency }}</li>
+                                <li>Client : {{ page.client }}</li>
+                                <li>Lieu : {{ page.location }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container intro-project section-margin container-fluid section-grey">
+                    <div class="intro-text">
+                        <h3 data-dsn-animate="text">Responsabilités</h3>
+                        <div class="inner">
+                            <p><i class="fas fa-inbox"></i>  Réponse à l'appel d'offre <br />
+                            <i class="fas fa-tasks"></i>  Direction de projet <br />
+                            <i class="fas fa-chart-line"></i>  Relation client <br />
+                            <i class="fas fa-sitemap"></i>  Relation avec les parties prenantes de l'AP : agences presse, influence, partenaires hors média
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="container-fluid gallery-col">
+                  <div class="row">
+                      <div class="col-md-4 box-im section-padding">
+                          <div class="image-zoom" data-dsn="parallax">
+                              <a class="single-image" href="/assets/img/project/project2/1-antho.png">
+                                  <img src="/assets/img/project/project2/1-antho.png" alt="">
+                              </a>
+
+                              <div class="caption">Trevor Bittinger</div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 box-im section-padding">
+                          <div class="image-zoom" data-dsn="parallax">
+                              <a class="single-image" href="/assets/img/project/project2/2-antho.png">
+                                  <img src="/assets/img/project/project2/2-antho.png" alt="">
+                              </a>
+                              <div class="caption">Sef McCullough</div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 box-im section-padding">
+                          <div class="image-zoom" data-dsn="parallax">
+                              <a class="single-image" href="/assets/img/project/project2/3-antho.png">
+                                  <img src="/assets/img/project/project2/3-antho.png" alt="">
+                              </a>
+                              <div class="caption">Sef McCullough</div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="next-project" data-dsn-footer="project">
+                <div id="dsn-next-parallax-img" class="bg">
+                    <div class="bg-image cover-bg" data-overlay="4"
+                        data-image-src="/assets/img/project/project9/1.jpg"></div>
+                </div>
+
+                <div id="dsn-next-parallax-title" class="project-title">
+                    <a href="project-9.html" class="effect-ajax" data-dsn-ajax="next-project">
+                        <div class="title-text-header">
+                            <div class="title-text-header-inner">
+                                <span>Vitrines Calvin Klein</span>
+                            </div>
+                        </div>
+                        <div class="sub-text-header">
+                            <h5>Prochain événement</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </div>
+</main>

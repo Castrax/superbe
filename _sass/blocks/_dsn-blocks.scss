@@ -15,6 +15,20 @@
   display: unset;
 }
 
+.inline-desc {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.section-grey {
+  flex-basis: 40%;
+  margin-left: 3rem;
+  background-color: $bg-dark-2;
+  padding: 50px;
+}
+
 .intro-project {
   position: relative;
 
@@ -26,7 +40,7 @@
     position: absolute;
     width: 100%;
     font-family: $heading-font;
-    font-size: 10vw;
+    font-size: 7vw;
     font-weight: 600;
     text-align: center;
     opacity: 0;
