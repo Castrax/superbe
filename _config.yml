@@ -33,6 +33,7 @@ twitter_username: Anthony_Nasso
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-random
 
 # Exclude from processing.
 # The following items will not be processed, by default.

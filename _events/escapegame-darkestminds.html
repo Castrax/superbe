@@ -5,6 +5,7 @@ name: Escape game Darkest Minds
 category: Escape game
 location: Centres commerciaux Klépierre
 city: Région parisienne
+index: 3
 ---
 
 <main class="main-root">
@@ -158,26 +159,7 @@ Plan média de 350K€ co-brandé et visibilité in situ pour un footfall de 1,5
                     </div>
                 </div>
             </div>
-
-            <div class="next-project" data-dsn-footer="project">
-                <div id="dsn-next-parallax-img" class="bg">
-                    <div class="bg-image cover-bg" data-overlay="4"
-                        data-image-src="assets/img/project/project1/1.jpg"></div>
-                </div>
-
-                <div id="dsn-next-parallax-title" class="project-title">
-                    <a href="project-1.html" class="effect-ajax" data-dsn-ajax="next-project">
-                        <div class="title-text-header">
-                            <div class="title-text-header-inner">
-                                <span>Magista</span>
-                            </div>
-                        </div>
-                        <div class="sub-text-header">
-                            <h5>Next Project</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            {% include random-nextproject.html %}
             {% include footer.html %}
         </div>
     </div>

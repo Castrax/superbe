@@ -2,10 +2,11 @@
 client: Netflix
 agency: We Love Art
 name: Stranger Night
-category: Lancement saison 3
+category: Lancements
 show: Stranger things
 location: Grand Rex
 city: Paris
+index: 5
 ---
 
 <main class="main-root">
@@ -117,25 +118,7 @@ city: Paris
               </div>
             </div>
 
-            <div class="next-project" data-dsn-footer="project">
-                <div id="dsn-next-parallax-img" class="bg">
-                    <div class="bg-image cover-bg" data-overlay="4"
-                        data-image-src="/assets/img/project/project9/1.jpg"></div>
-                </div>
-
-                <div id="dsn-next-parallax-title" class="project-title">
-                    <a href="project-9.html" class="effect-ajax" data-dsn-ajax="next-project">
-                        <div class="title-text-header">
-                            <div class="title-text-header-inner">
-                                <span>Vitrines Calvin Klein</span>
-                            </div>
-                        </div>
-                        <div class="sub-text-header">
-                            <h5>Prochain événement</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            {% include random-nextproject.html %}
             {% include footer.html %}
         </div>
     </div>

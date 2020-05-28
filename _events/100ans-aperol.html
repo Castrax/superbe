@@ -5,6 +5,7 @@ name: 100 ans Apérol
 category: Soirées
 location: La Rotonde Stalingrad
 city: Paris, 18ème
+index: 1
 ---
 
 <main class="main-root">
@@ -117,25 +118,7 @@ Au programme sur les 3 jours : soirée de lancement RP (700K de Media Value), an
               </div>
             </div>
 
-            <div class="next-project" data-dsn-footer="project">
-                <div id="dsn-next-parallax-img" class="bg">
-                    <div class="bg-image cover-bg" data-overlay="4"
-                        data-image-src="/assets/img/project/project9/1.jpg"></div>
-                </div>
-
-                <div id="dsn-next-parallax-title" class="project-title">
-                    <a href="project-9.html" class="effect-ajax" data-dsn-ajax="next-project">
-                        <div class="title-text-header">
-                            <div class="title-text-header-inner">
-                                <span>Vitrines Calvin Klein</span>
-                            </div>
-                        </div>
-                        <div class="sub-text-header">
-                            <h5>Prochain événement</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            {% include random-nextproject.html %}
             {% include footer.html %}
         </div>
     </div>

@@ -1,0 +1,120 @@
+---
+client: Netflix
+name: Opening Netflix Paris
+category: Soirées
+show: Stranger things
+location: Bureaux Netflix
+city: Paris
+index: 2
+---
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <header>
+            <div class="headefr-fexid" data-dsn-header="project">
+                <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
+                    <div class="bg-image cover-bg" data-overlay="3"
+                        data-image-src="/assets/img/project/project1/banner-cremaillere.jpeg"></div>
+                </div>
+
+                <div class="scroll" data-dsn-animate="ajax">
+                    <span class="background"></span>
+                    <span class="triangle"></span>
+                </div>
+                <div class="project-title" id="dsn-hero-parallax-title">
+                    <div class="title-text-header">
+                        <div class="cat">
+                            <span>{{ page.category }}</span>
+                        </div>
+                        <span class="title-text-header-inner">
+                            <span data-dsn-animate="ajax">{{ page.name }}</span>
+                        </span>
+                    </div>
+
+                    <div class="sub-text-header" data-dsn-animate="ajax">
+                        <h5>{{ page.location }}</h5>
+                        <span>- {{ page.city }}</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="root-project">
+                <div class="container intro-project section-margin">
+                    <div class="intro-text">
+                        <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                            data-dsn-duration="170%" data-dsn-move="0%">
+                            TOUDOUUUUUUUMMMMMMMM
+                        </div>
+                        <div class="inner">
+                            <h2 data-dsn-animate="text">{{ page.name }}</h2>
+                            <p data-dsn-animate="up">A l’occasion de l’ouverture des bureaux parisiens de Netflix, le géant de la SVOD me confie l’organisation de leur soirée de crémaillère dans leurs locaux.
+250 personnes (influenceurs, journalistes, agences et employés Netflix) ont pu assister à cette soirée avec au programme un DJ set de Stéphane Bourbon (Villa Schweppes), un photocall immersif, animations culinaires et scénographies autour des séries phares de la plateforme.
+</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-seat box-seat-full section-margin">
+                    <div class="container-fluid">
+                        <div class="inner-img" data-dsn-grid="move-up">
+                            <img src="/assets/img/project/project1/cremaillere-intermediaire.jpeg" alt="" style="transform: scale(1.3)"
+                                data-dsn-scale="1" data-dsn-y="30%">
+                        </div>
+                        <div class="pro-text" data-dsn-animate="up">
+                            <h3>Responsabilités</h3>
+                            <p><i class="fas fa-tasks"></i>  Direction de projet</p>
+                            <p><i class="fas fa-chart-line"></i>  Relation client</p>
+                            <p><i class="fas fa-chart-line"></i>  Direction de production</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-portfolio section-margin justified-gallery">
+                    <a class="link-pop" href="/assets/img/project/project1/1.jpeg"
+                        data-source="/assets/img/project/project1/1.jpeg">
+                        <img src="/assets/img/project/project1/1.jpeg" alt="">
+                        <div class="cap">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+
+                    <a class="link-pop" href="/assets/img/project/project1/2.jpeg"
+                        data-source="/assets/img/project/project1/2.jpeg">
+                        <img src="/assets/img/project/project1/2.jpeg" alt="">
+                        <div class="cap">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+
+                    <a class="link-pop" href="/assets/img/project/project1/3.jpeg"
+                        data-source="/assets/img/project/project1/3.jpeg">
+                        <img src="/assets/img/project/project1/3.jpeg" alt="">
+                        <div class="cap">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+
+                    <a class="link-pop" href="/assets/img/project/project1/4.jpeg"
+                        data-source="/assets/img/project/project1/4.jpeg">
+                        <img src="/assets/img/project/project1/4.jpeg" alt="">
+                        <div class="cap">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+
+                    <a class="link-pop" href="/assets/img/project/project1/4.jpeg"
+                        data-source="/assets/img/project/project1/4.jpeg">
+                        <img src="/assets/img/project/project1/4.jpeg" alt="">
+                        <div class="cap">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% include random-nextproject.html %}
+            {% include footer.html %}
+        </div>
+    </div>
+</main>

@@ -3,18 +3,6 @@ layout: event
 title: Events
 ---
 
-<h1>Événements</h1>
-
-<ul>
-  {% for event in site.events %}
-    <li>
-      <h2>{{ event.name }}</h2>
-      <h3>{{ event.client }}</h3>
-      <p><a href="{{ event.url }}">Lien vers le site</a></p>
-    </li>
-  {% endfor %}
-</ul>
-
 <main class="main-root">
     <div id="dsn-scrollbar">
         <header>
@@ -23,7 +11,7 @@ title: Events
                     <div class="col-lg-6">
                         <div class="contenet-hero">
                             <h5>Les événements</h5>
-                            <h1>portfolio</h1>
+                            <h1>Portfolio</h1>
                         </div>
                     </div>
                 </div>
@@ -44,134 +32,31 @@ title: Events
                                 <button type="button" data-filter="*" class="active">
                                     Tous
                                 </button>
-                                <button type="button" data-filter=".brand">Brand</button>
-                                <button type="button" data-filter=".photography">Photography</button>
-                                <button type="button" data-filter=".architecture">Architecture</button>
-                                <button type="button" data-filter=".video">video</button>
+                                <button type="button" data-filter=".brand">Soirées</button>
+                                <button type="button" data-filter=".photography">Lancements</button>
+                                <button type="button" data-filter=".architecture">Événements Grand Public</button>
+                                <button type="button" data-filter=".video">Scénographies</button>
 
                             </div>
                         </div>
                     </div>
 
                     <div class="projects-list gallery">
-                        <div class="item brand">
-                            <a href="project-9.html" class="effect-ajax" data-dsn-ajax="work"
-                                data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project9/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Brand</h5>
-                                    <h4>Time Tag Watch</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
 
-                        <div class="item brand">
-                            <a href="project-4.html" class="effect-ajax" data-dsn-ajax="work"
-                                data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project4/2.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Brand</h5>
-                                    <h4>Under Armour</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item photography">
-                            <a href="project-3.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project3/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Photography</h5>
-                                    <h4>Re Styling</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item video">
-                            <a href="project-8.html">
-                                <img class="hidden" src="assets/img/project/project8/1.jpg" alt="" />
-                                <div data-dsn="video" data-overlay="4" style="height: 80vh">
-                                    <video class="has-top-bottom dsn-video"
-                                        poster="assets/img/project/project8/1.jpg" autoplay loop muted>
-                                        <source src="http://theme.dsngrid.com/video/droow.mp4" type="video/mp4"
-                                            type="video/mp4">
-                                        <source src="http://theme.dsngrid.com/video/droow.webm" type="video/webm">
-                                        Your browser does not support HTML5 video.
-                                    </video>
-                                </div>
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">video</h5>
-                                    <h4>Toast 2019 Reel</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item photography">
-                            <a href="project-7.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project7/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Photography</h5>
-                                    <h4>Nile - Kabutha</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item photography">
-                            <a href="project-6.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project6/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Photography</h5>
-                                    <h4>Sleep Walker</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item brand">
-                            <a href="project-1.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project1/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">brand</h5>
-                                    <h4>Magista</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item photography">
-                            <a href="project-2.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project2/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Photography</h5>
-                                    <h4>Bastian Bux</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item architecture">
-                            <a href="project-5.html" data-dsn-grid="move-up">
-                                <img class="has-top-bottom" src="assets/img/project/project5/1.jpg" alt="" />
-                                <div class="item-border"></div>
-                                <div class="item-info">
-                                    <h5 class="cat">Architecture</h5>
-                                    <h4>Novara Conic</h4>
-                                    <span><span>Veiw Project</span></span>
-                                </div>
-                            </a>
-                        </div>
+                        {% for item in site.data.events %}
+                          <div class="item {{ item.category }}">
+                              <a href="/events/{{ item.link }}" class="effect-ajax" data-dsn-ajax="work"
+                                  data-dsn-grid="move-up">
+                                  <img class="has-top-bottom" src="{{ item.image }}" alt="" />
+                                  <div class="item-border"></div>
+                                  <div class="item-info">
+                                      <h5 class="cat">{{ item.category }}</h5>
+                                      <h4>{{ item.name }}</h4>
+                                      <span><span>Voir l'événement</span></span>
+                                  </div>
+                              </a>
+                          </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -181,10 +66,10 @@ title: Events
                     <div class="c-wapp">
                         <a href="contact.html" class="effect-ajax">
                             <span class="hiring">
-                                We are hiring
+                                Vous avez un projet d'événement ?
                             </span>
                             <span class="career">
-                                Dare and contact us immediately!
+                                N'hésitez pas à me contacter !
                             </span>
                         </a>
                     </div>

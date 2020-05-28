@@ -2,9 +2,10 @@
 client: Klépierre & STUDIOCANAL
 agency: Faubourg Stories
 name: Noël Paddington
-category: Dispositif
+category: Événements Grand Public
 location: Centres commerciaux Klépierre
 city: France
+index: 6
 ---
 
 <main class="main-root">
@@ -133,25 +134,7 @@ Plan RP national et régional.
                 </div>
             </div>
 
-            <div class="next-project" data-dsn-footer="project">
-                <div id="dsn-next-parallax-img" class="bg">
-                    <div class="bg-image cover-bg" data-overlay="4"
-                        data-image-src="assets/img/project/project1/1.jpg"></div>
-                </div>
-
-                <div id="dsn-next-parallax-title" class="project-title">
-                    <a href="project-1.html" class="effect-ajax" data-dsn-ajax="next-project">
-                        <div class="title-text-header">
-                            <div class="title-text-header-inner">
-                                <span>Magista</span>
-                            </div>
-                        </div>
-                        <div class="sub-text-header">
-                            <h5>Next Project</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            {% include random-nextproject.html %}
             {% include footer.html %}
         </div>
     </div>

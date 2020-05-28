@@ -1,0 +1,117 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+  <main class="main-root">
+    <div id="dsn-scrollbar">
+      <header>
+        <div class="container header-hero">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="contenet-hero">
+                <h5>Hello you</h5>
+                <h1>Contactons-nous !</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="wrapper">
+        <div class="root-contact">
+         <section class="section cover-bg linear-rainbow">
+           <div class="container-fluid">
+           </div>
+         </section>
+
+          <div class="container section-margin">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="box-info-contact">
+                  <h3>Vous avez un nouvel événement ?</h3>
+
+                  <p>Vous trouverez toutes mes coordonnées ci-dessous. N'hésitez pas à me laisser un message via le formulaire sur la droite, j'y répondrai le plus rapidement possible.</p>
+
+                  <ul>
+                    <li>
+                      <span>Téléphone</span>
+                      <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
+                    </li>
+                    <li>
+                      <span>Email</span>
+                      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    </li>
+                    <li>
+                      <span>Adresse</span>
+                      <a href="#">64, rue du Mont-Cenis, 750018 PARIS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-box">
+                  <h3>Laissez-moi un message</h3>
+                  <form id="contact-form" class="form" method="post" action="https://formspree.io/xaypeada" data-toggle="validator">
+                    <div class="messages"></div>
+                    <div class="input__wrap controls">
+                      <div class="form-group">
+
+                        <div class="entry">
+                          <label>Quel est votre nom ?</label>
+                          <input id="form_name" type="text" name="name" placeholder="Tapez votre nom" required="required"
+                            data-error="Veuillez renseigner un nom.">
+                        </div>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="entry">
+                          <label>Quelle est votre adresse email ?</label>
+                          <input id="form_email" type="email" name="_replyto" placeholder="Tapez votre adresse email"
+                            required="required" data-error="Veuillez renseigner un email.">
+                        </div>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="entry">
+                          <label>Quel est votre message ?</label>
+                          <textarea id="form_message" class="form-control" name="message"
+                            placeholder="Dites m'en plus sur vos besoins, et vos objectifs." required="required"
+                            data-error="Veuillez renseigner un message."></textarea>
+                        </div>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="image-zoom" data-dsn="parallax">
+                        <button id="contact-button" type="submit">Envoyer</button>
+                      </div>
+                    </div>
+                  </form>
+                  <p id="my-form-status"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="contact-up section-margin section-padding">
+          <div class="container">
+            <div class="c-wapp">
+              <a href="work.html" class="effect-ajax">
+                <span class="hiring">
+                  Mon portfolio
+                </span>
+                <span class="career">
+                  Voir plus d'événements
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+        {% include footer.html %}
+      </div>
+    </div>
+  </main>

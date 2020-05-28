@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: À propos
-  link: /about.html
 - name: Events
   link: /events.html
 - name: Contact

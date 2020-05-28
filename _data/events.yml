@@ -1,0 +1,36 @@
+- name: 100 ans Apérol
+  link: 100ans-aperol.html
+  image: /assets/img/project/project4/6.jpg
+  index: 0
+- name: Opening Netflix Paris
+  link: opening-netflix.html
+  image: /assets/img/project/project1/cremaillere-intermediaire.jpeg
+  index: 1
+- name: Escape game Darkest Minds
+  link: escapegame-darkestminds.html
+  image: /assets/img/project/project5/1.png
+  index: 2
+- name: Lancement Prado
+  link: lancement-prado.html
+  image: /assets/img/project/project6/3.jpg
+  index: 3
+- name: Stranger Night
+  link: netflix-stranger.html
+  image: /assets/img/project/project2/1-2.png
+  index: 4
+- name: Noël Paddington
+  link: noel-paddington.html
+  image: /assets/img/project/project7/4.jpg
+  index: 5
+- name: Pierre Lapin au BHV Marais
+  link: pierrelapin-bhv.html
+  image: /assets/img/project/project8/3.png
+  index: 6
+- name: Vitrines Calvin Klein SS19
+  link: vitrines-calvinklein.html
+  image: /assets/img/project/project9/6.jpg
+  index: 7
+- name: Wizarding World aux Galeries Lafayette
+  link: wizarding-world.html
+  image: /assets/img/project/project10/7.jpg
+  index: 8

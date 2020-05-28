@@ -1,0 +1,23 @@
+{% for item in site.data.events %}
+  {% if page.index == item.index %}
+    <div class="next-project event-{{ item.index }}" data-dsn-footer="project" data-index="{{ page.index }}">
+        <div id="dsn-next-parallax-img" class="bg">
+            <div class="bg-image cover-bg" data-overlay="4"
+                data-image-src="{{ item.image }}"></div>
+        </div>
+
+        <div id="dsn-next-parallax-title" class="project-title">
+            <a href="{{ item.link }}" class="effect-ajax" data-dsn-ajax="next-project">
+                <div class="title-text-header">
+                    <div class="title-text-header-inner">
+                        <span>{{ item.name }}</span>
+                    </div>
+                </div>
+                <div class="sub-text-header">
+                    <h5>Événement suivant</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+  {% endif %}
+{% endfor %}
