@@ -4,7 +4,7 @@
   height: 100vh;
   overflow: hidden;
   background-color: $bg-dark;
-  
+
   .bg {
     position: absolute;
     right: 0;
@@ -14,6 +14,7 @@
 
     @include media_768 {
       width: 100%;
+      top: -120px;
     }
 
     .bg-image {
@@ -119,6 +120,10 @@
     overflow: hidden;
     z-index: 2;
 
+    @include media_768 {
+      top: 110px;
+    }
+
     .title-text-header {
       position: relative;
       padding-left: 7.5vw;
@@ -148,7 +153,7 @@
           @include v-light {
             color: $heading-color;
           }
-          
+
           &:after {
             content: "";
             display: inline-block;

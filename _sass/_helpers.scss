@@ -626,6 +626,10 @@
   z-index: -20 !important;
   width: 100%;
   height: 100%;
+  @include media_768 {
+    object-fit: contain;
+    background-color: black;
+  }
 }
 
 [data-dsn="video"] {
