@@ -11,7 +11,7 @@ permalink: /contact/
             <div class="col-lg-10">
               <div class="contenet-hero">
                 <h5>Hello you</h5>
-                <h1>Contactons-nous !</h1>
+                <h1>On prend un café ?</h1>
               </div>
             </div>
           </div>
@@ -25,13 +25,13 @@ permalink: /contact/
            </div>
          </section>
 
-          <div class="container section-margin">
+          <div class="container section-margin new-event">
             <div class="row">
               <div class="col-lg-6">
                 <div class="box-info-contact">
-                  <h3>Vous avez un nouvel événement ?</h3>
+                  <h3>Vous avez un projet d'événement ?</h3>
 
-                  <p>Vous trouverez toutes mes coordonnées ci-dessous. N'hésitez pas à me laisser un message via le formulaire sur la droite, j'y répondrai le plus rapidement possible.</p>
+                  <p>Vous trouverez toutes mes coordonnées ci-dessous. N'hésitez pas à me laisser un message via le formulaire ci-après, j'y répondrai le plus rapidement possible.</p>
 
                   <ul>
                     <li>
@@ -44,7 +44,7 @@ permalink: /contact/
                     </li>
                     <li>
                       <span>Adresse</span>
-                      <a href="#">64, rue du Mont-Cenis, 750018 PARIS</a>
+                      <a href="#">64, rue du Mont-Cenis, 75018 PARIS</a>
                     </li>
                   </ul>
                 </div>
@@ -56,8 +56,8 @@ permalink: /contact/
                   <form id="contact-form" class="form" method="post" action="https://formspree.io/xaypeada" data-toggle="validator">
                     <div class="messages"></div>
                     <div class="input__wrap controls">
-                      <div class="form-group">
 
+                      <div class="form-group">
                         <div class="entry">
                           <label>Quel est votre nom ?</label>
                           <input id="form_name" type="text" name="name" placeholder="Tapez votre nom" required="required"
@@ -68,9 +68,26 @@ permalink: /contact/
 
                       <div class="form-group">
                         <div class="entry">
-                          <label>Quelle est votre adresse email ?</label>
+                          <label>Quelle est votre entreprise ?</label>
+                          <input id="form_society" type="text" name="society" placeholder="Tapez votre entreprise"
+                            data-error="Veuillez renseigner une entreprise.">
+                        </div>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="entry">
+                          <label>Quel est votre email ?</label>
                           <input id="form_email" type="email" name="_replyto" placeholder="Tapez votre adresse email"
                             required="required" data-error="Veuillez renseigner un email.">
+                        </div>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="entry">
+                          <label>Quel est votre numéro de téléphone ?</label>
+                          <input id="form_tel" type="tel" name="tel" placeholder="Tapez votre tél" data-error="Veuillez renseigner un email.">
                         </div>
                         <div class="help-block with-errors"></div>
                       </div>

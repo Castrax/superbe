@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Events
+- name: Projets
   link: /events.html
 - name: Contact
   link: /contact.html
