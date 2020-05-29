@@ -54,80 +54,44 @@ layout: default
                             </div>
                         </div>
 
-                        <div class="slide-item swiper-slide">
-                            <div class="slide-content">
-                                <div class="slide-content-inner">
-                                    <div class="project-metas">
-                                        <div class="project-meta-box project-work cat">
-                                            <span>Marques</span>
-                                        </div>
-                                    </div>
+                        {% for item in site.data.events limit:3 %}
+                          <div class="slide-item swiper-slide">
+                              <div class="slide-content">
+                                  <div class="slide-content-inner">
+                                      <div class="project-metas">
+                                          <div class="project-meta-box project-work cat">
+                                              <span>{{ item.category }}</span>
+                                          </div>
+                                      </div>
 
-                                    <div class="title-text-header">
-                                        <div class="title-text-header-inner">
-                                            <a href="project-9.html" class="effect-ajax" data-dsn-ajax="slider">
-                                                Calvin Klein SS19
-                                            </a>
-                                        </div>
-                                    </div>
+                                      <div class="title-text-header">
+                                          <div class="title-text-header-inner">
+                                              <a href="{{ item.link }}" class="effect-ajax" data-dsn-ajax="slider">
+                                                  {{ item.name }}
+                                              </a>
+                                          </div>
+                                      </div>
 
-                                    <p>Sometimes, we need to check the time, wondering when our work
-                                        or meeting will finish, without getting caught by others.</p>
+                                      <p>Sometimes, we need to check the time, wondering when our work
+                                          or meeting will finish, without getting caught by others.</p>
 
-                                    <div class="link-custom">
-                                        <a href="project-9.html" class="image-zoom effect-ajax" data-dsn="parallax"
-                                            data-dsn-ajax="slider">
-                                            <span>Voir l'événement</span>
-                                        </a>
-                                    </div>
+                                      <div class="link-custom">
+                                          <a href="{{ item.link }}" class="image-zoom effect-ajax" data-dsn="parallax"
+                                              data-dsn-ajax="slider">
+                                              <span>Voir l'événement</span>
+                                          </a>
+                                      </div>
 
-                                </div>
-                            </div>
-                            <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="assets/img/project/project9/1.jpg"
-                                    data-overlay="5">
-                                    <img src="assets/img/project/project9/1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide-item swiper-slide">
-                            <div class="slide-content">
-                                <div class="slide-content-inner">
-                                    <div class="project-metas">
-                                        <div class="project-meta-box project-work cat">
-                                            <span>Marques</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="title-text-header">
-                                        <div class="title-text-header-inner">
-                                            <a href="project-4.html" class="effect-ajax" data-dsn-ajax="slider">
-                                                100 ans Apérol
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <p>Cal was first. The first public university in the great state
-                                        of California. They are the pioneers. They are the trailblazers who started
-                                        it all.</p>
-
-                                    <div class="link-custom">
-                                        <a href="project-4.html" class="image-zoom effect-ajax" data-dsn="parallax"
-                                            data-dsn-ajax="slider">
-                                            <span>Voir l'événement</span>
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="assets/img/project/project4/1.jpg"
-                                    data-overlay="0">
-                                    <img src="assets/img/project/project4/1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
+                                  </div>
+                              </div>
+                              <div class="image-container">
+                                  <div class="image-bg cover-bg" data-image-src="{{ item.image }}"
+                                      data-overlay="5">
+                                      <img src="{{ item.image }}" alt="">
+                                  </div>
+                              </div>
+                          </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -456,30 +420,90 @@ layout: default
                         </div>
                         <h2 class="title-main">Ils me font confiance</h2>
                     </div>
-                    <div class="custom-container">
+                    <div class="container">
                         <div class="row align-items-center">
-                                <div class="col-lg-3">
-                                  <a class="link-pop" href="/assets/img/logo/cartel.jpg"
-                                      data-source="/assets/img/logo/cartel.jpg">
-                                      <img src="/assets/img/logo/cartel.jpg" alt="">
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/1.jpg"
+                                      data-source="/assets/img/logo/clients/1.jpg">
+                                      <img src="/assets/img/logo/clients/1.jpg" alt="">
                                   </a>
                                 </div>
-                                <div class="col-lg-3">
-                                  <a class="link-pop" href="/assets/img/logo/galeries-lafayette-black.jpg"
-                                      data-source="/assets/img/logo/galeries-lafayette-black.jpg">
-                                      <img src="/assets/img/logo/galeries-lafayette-black.jpg" alt="">
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/2.jpg"
+                                      data-source="/assets/img/logo/clients/2.jpg">
+                                      <img src="/assets/img/logo/clients/2.jpg" alt="">
                                   </a>
                                 </div>
-                                <div class="col-lg-3">
-                                  <a class="link-pop" href="/assets/img/logo/netflix.jpg"
-                                      data-source="/assets/img/logo/netflix.jpg">
-                                      <img src="/assets/img/logo/netflix.jpg" alt="">
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/3.jpg"
+                                      data-source="/assets/img/logo/clients/3.jpg">
+                                      <img src="/assets/img/logo/clients/3.jpg" alt="">
                                   </a>
                                 </div>
-                                <div class="col-lg-3">
-                                  <a class="link-pop" href="/assets/img/logo/studiocanal-taille-small.jpg"
-                                      data-source="/assets/img/logo/studiocanal-taille-small.jpg">
-                                      <img src="/assets/img/logo/studiocanal-taille-small.jpg" alt="">
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/4.jpg"
+                                      data-source="/assets/img/logo/clients/4.jpg">
+                                      <img src="/assets/img/logo/clients/4.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/5.jpg"
+                                      data-source="/assets/img/logo/clients/5.jpg">
+                                      <img src="/assets/img/logo/clients/5.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/6.jpg"
+                                      data-source="/assets/img/logo/clients/6.jpg">
+                                      <img src="/assets/img/logo/clients/6.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/7.jpg"
+                                      data-source="/assets/img/logo/clients/7.jpg">
+                                      <img src="/assets/img/logo/clients/7.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/8.jpg"
+                                      data-source="/assets/img/logo/clients/8.jpg">
+                                      <img src="/assets/img/logo/clients/8.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/9.jpg"
+                                      data-source="/assets/img/logo/clients/9.jpg">
+                                      <img src="/assets/img/logo/clients/9.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/10.jpg"
+                                      data-source="/assets/img/logo/clients/10.jpg">
+                                      <img src="/assets/img/logo/clients/10.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/11.jpg"
+                                      data-source="/assets/img/logo/clients/11.jpg">
+                                      <img src="/assets/img/logo/clients/11.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/12.jpg"
+                                      data-source="/assets/img/logo/clients/12.jpg">
+                                      <img src="/assets/img/logo/clients/12.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/13.jpg"
+                                      data-source="/assets/img/logo/clients/13.jpg">
+                                      <img src="/assets/img/logo/clients/13.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-lg-3" data-dsn-animate="up">
+                                  <a class="link-pop" href="/assets/img/logo/clients/14.jpg"
+                                      data-source="/assets/img/logo/clients/14.jpg">
+                                      <img src="/assets/img/logo/clients/14.jpg" alt="">
                                   </a>
                                 </div>
                             </div>
