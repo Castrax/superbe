@@ -5,6 +5,7 @@
   category: Soirées
   categ_img: /assets/img/project/project1/2.jpeg
   txt_slider: "A l’occasion de l’ouverture des bureaux parisiens de Netflix, le géant de la SVOD me confie l’organisation de leur soirée de crémaillère dans leurs locaux."
+  hp: /assets/img/project/project1/hp.jpg
 - name: 100 ans Apérol
   link: 100ans-aperol
   image: /assets/img/project/project4/6.jpg
@@ -12,6 +13,7 @@
   category: Soirées
   categ_img: /assets/img/project/project4/categ.jpg
   txt_slider: "A l’occasion des 100 ans de la marque Aperol, RFD nous confie un événement de 3 jours pour le centenaire de la marque."
+  hp: /assets/img/project/project4/hp.jpg
 - name: Wizarding World aux Galeries Lafayette
   link: wizarding-world
   image: /assets/img/project/project10/7.jpg
@@ -19,45 +21,53 @@
   category: Événements Grand Public
   categ_img: /assets/img/project/project10/categ.jpg
   txt_slider: "A l’occasion de la sortie du film Les Animaux Fantastiques 2 : Les Crimes de Grindelwald, le monde d’Harry Potter pose bagages aux Galeries Lafayette pour les fêtes de Noël."
+  hp: /assets/img/project/project10/hp.jpg
 - name: Stranger Night
   link: netflix-stranger
   image: /assets/img/project/project2/1-2.png
   index: 4
   category: Lancements
   categ_img: /assets/img/project/project2/categ.jpg
+  hp: /assets/img/project/project2/hp.jpg
 - name: Vitrines Calvin Klein SS19
   link: vitrines-calvinklein
   image: /assets/img/project/project9/6.jpg
   index: 7
   category: Scénographies
   categ_img: /assets/img/project/project9/1.jpg
+  hp: /assets/img/project/project9/hp.jpg
 - name: Pierre Lapin au BHV Marais
   link: pierrelapin-bhv
   image: /assets/img/project/project8/3.png
   index: 6
   category: Événements Grand Public
   categ_img: /assets/img/project/project8/categ.jpg
+  hp: /assets/img/project/project8/hp.jpg
 - name: Noël Paddington
   link: noel-paddington
   image: /assets/img/project/project7/4.jpg
   index: 5
   category: Événements Grand Public
   categ_img: /assets/img/project/project7/categ.jpg
+  hp: /assets/img/project/project7/hp.jpg
 - name: Escape game Darkest Minds
   link: escapegame-darkestminds
   image: /assets/img/project/project5/1.png
   index: 2
   category: Événements Grand Public
   categ_img: /assets/img/project/project5/categ.jpg
+  hp: /assets/img/project/project5/hp.jpg
 - name: Lancement Prado
   link: lancement-prado
   image: /assets/img/project/project6/3.jpg
   index: 3
   category: Lancements
   categ_img: /assets/img/project/project6/categ.jpg
+  hp: /assets/img/project/project6/hp.jpg
 - name: Chassez les emojis
   link: chassez-emojis
   image: /assets/img/project/project11/1.jpg
   index: 9
   category: Digital
   categ_img: /assets/img/project/project11/1.jpg
+  hp: /assets/img/project/project11/hp.jpg
