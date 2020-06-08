@@ -1,0 +1,110 @@
+---
+client: Klépierre & Sony Pictures
+agency: Faubourg Stories
+name: Chassez les emojis !
+category: Digital
+location: Centres commerciaux Klépierre
+city: France
+index: 9
+permalink: events/chassez-emojis/
+---
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <header>
+            <div class="headefr-fexid" data-dsn-header="project">
+                <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
+                    <div class="bg-image cover-bg" data-overlay="3"
+                        data-image-src="/assets/img/project/project11/1.jpg"></div>
+                </div>
+
+                <div class="scroll" data-dsn-animate="ajax">
+                    <span class="background"></span>
+                    <span class="triangle"></span>
+                </div>
+                <div class="project-title" id="dsn-hero-parallax-title">
+                    <div class="title-text-header">
+                        <div class="cat">
+                            <span>{{ page.category }}</span>
+                        </div>
+                        <span class="title-text-header-inner">
+                            <span data-dsn-animate="ajax">{{ page.name }}</span>
+                        </span>
+                    </div>
+
+                    <div class="sub-text-header" data-dsn-animate="ajax">
+                        <h5>{{ page.location }}</h5>
+                        <span>- {{ page.city }}</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="root-project box-seat">
+              <div class="inline-desc">
+                <div class="container intro-project section-margin container-fluid">
+                    <div class="intro-text">
+                        <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                            data-dsn-duration="170%" data-dsn-move="0%">
+                            {{ page.name }}
+                        </div>
+                        <div class="inner">
+                            <h2 data-dsn-animate="text">{{ page.name }}</h2>
+                            <p data-dsn-animate="up">A l’occasion de la sortie en salles du Monde Secret des Emojis, Sony Picture souhaite événementialiser les personnages du film auprès du grand public. C’est pourquoi il confie à l’agence Faubourg Stories le développement d’un application géo-localisée de chasse d’Emojis. Cette application a été lancée en simultanée dans 10 centres commerciaux pour la rentrée des classes. Conception et développement d'une application de réalité augmentée sur Android et iOS. PLV in situ, plan média et supports et retombées presse.</p>
+                            <ul class="mt-20" data-dsn-animate="up">
+                                <li>Agence : {{ page.agency }}</li>
+                                <li>Client : {{ page.client }}</li>
+                                <li>Lieu : {{ page.location }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro-project section-margin section-grey" data-dsn-animate="up">
+                    <div class="intro-text">
+                        <h3 data-dsn-animate="text">Responsabilités</h3>
+                        <div class="inner">
+                            <p><i class="fas fa-tasks"></i>  Conception et recommandation stratégique <br />
+                            <i class="fas fa-chart-line"></i>  Direction de projets <br />
+                            <i class="fas fa-sitemap"></i> Briefs, suivi et validation créa <br />
+                            <i class="fas fa-music"></i>  Coordination partenariats et validations</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            <div class="container-fluid gallery-col">
+                    <div class="row">
+                        <div class="col-md-4 box-im section-padding">
+                            <div class="image-zoom" data-dsn="parallax">
+                                <a class="single-image" href="/assets/img/project/project11/2.jpg">
+                                    <img src="/assets/img/project/project11/2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 box-im section-padding">
+                            <div class="image-zoom" data-dsn="parallax">
+                                <a class="single-image" href="/assets/img/project/project11/3.jpg">
+                                    <img src="/assets/img/project/project11/3.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 box-im section-padding">
+                            <div class="image-zoom" data-dsn="parallax">
+                                <a class="single-image" href="/assets/img/project/project11/4.jpg">
+                                    <img src="/assets/img/project/project11/4.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            {% include random-nextproject.html %}
+            {% include footer.html %}
+        </div>
+    </div>
+</main>

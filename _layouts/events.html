@@ -36,6 +36,7 @@ title: Events
                                 <button type="button" data-filter=".Lancements">Lancements</button>
                                 <button type="button" data-filter=".Événements">Événements Grand Public</button>
                                 <button type="button" data-filter=".Scénographies">Scénographies</button>
+                                <button type="button" data-filter=".Digital">Digital</button>
 
                             </div>
                         </div>
@@ -47,7 +48,7 @@ title: Events
                           <div class="item {{ item.category }}">
                               <a href="/events/{{ item.link }}" class="effect-ajax" data-dsn-ajax="work"
                                   data-dsn-grid="move-up">
-                                  <img class="has-top-bottom" src="{{ item.image }}" alt="" />
+                                  <img class="has-top-bottom" src="{{ item.categ_img }}" alt="" />
                                   <div class="item-border"></div>
                                   <div class="item-info">
                                       <h5 class="cat">{{ item.category }}</h5>
