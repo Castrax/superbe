@@ -40,6 +40,10 @@
   background-color: $bg-dark-2;
   padding: 50px;
 
+  @include v-light {
+    background-color: lightgrey;
+  }
+
   @include media_991 {
     padding: 30px;
     margin-top: 0;
